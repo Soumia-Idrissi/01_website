@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(168, 162, 168, 0.116);
+  box-shadow: 0 2px 7px rgb(35, 86, 255);
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  margin-left: 2rem;
+}
+
+.menu li a {
+  color: rgb(35, 86, 255);
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #333333;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu a:hover {
+  color: rgb(0, 0, 0);
+}
+
+main {
+  background-color: rgba(168, 162, 168, 0.116);
+  background-size: 100%;
+  box-shadow: 0 7px 7px rgb(35, 86, 255);
+  margin-top: 2rem;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  padding: 1.5em;
+  text-decoration: none;
+  color: rgb(35, 86, 255);
+  font-size: 20px;
+}
+
+h1,
+h2 {
+  color: rgb(35, 86, 255);
+  padding: 1em;
+  font-family: "Story Script", sans-serif;
+  font-size: 30px;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 1.5rem;
+}
+
+img {
+  padding: 1em;
+}
+
+footer {
+  padding: 10px;
+  background-color: rgb(35, 86, 255);
+  text-align: center;
+  box-shadow: 0 7px 7px rgb(35, 86, 255);
+}
